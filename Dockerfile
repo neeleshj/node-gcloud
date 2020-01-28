@@ -1,5 +1,5 @@
 FROM node:10
-MAINTAINER Neelesh
+MAINTAINER Neelesh Joshing
 
 RUN mkdir -p /opt
 WORKDIR /opt
