@@ -1,5 +1,5 @@
-FROM node:6-alpine
-MAINTAINER Antônio Malheiros<antonio.cm.oliveira@gmail.com>
+FROM node:10
+MAINTAINER Neelesh
 
 RUN mkdir -p /opt
 WORKDIR /opt
@@ -24,6 +24,3 @@ ENV PATH /opt/google-cloud-sdk/bin:$PATH
 
 WORKDIR /root
 CMD bash
-
-# Install bower and gulp globaly
-RUN /usr/local/bin/npm install -g bower gulp
